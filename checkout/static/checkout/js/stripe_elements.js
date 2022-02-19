@@ -1,8 +1,7 @@
 /*
     Core logic/payment flow for this comes from here:
     https://stripe.com/docs/payments/accept-a-payment
-
-    CSS from here:
+    CSS from here: 
     https://stripe.com/docs/stripe-js
 */
 
@@ -24,7 +23,7 @@ var style = {
         color: '#dc3545',
         iconColor: '#dc3545'
     }
- };
+};
 var card = elements.create('card', {style: style});
 card.mount('#card-element');
 
